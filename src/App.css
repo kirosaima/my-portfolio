@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@500&display=swap");
+:root {
+  --nav-color: #121619e0;
+  --dull-text: #bcb382;
+  --carrot-text: #09814a;
+}
+.spacing {
+  margin-left: 10px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  font-family: "M PLUS 1 Code", sans-serif;
+}
+
+.nav-bar li {
+  list-style-type: none;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 110%;
+}
+
+.nav-bar ul {
+  margin-right: 10px;
+}
+
+.nav-bar {
+  position: relative;
+  float: right;
+}
+
+.logo {
+  position: relative;
+  float: left;
+}
+
+.logo h2 {
+  margin-left: 10px;
+  color: white;
+  font-family: "M PLUS 1 Code", sans-serif;
+  font-size: 150%;
+}
+
+.top-bar {
+  background-color: var(--nav-color);
+  position: absolute;
+  width: 100%;
+}
+
+.dull {
+  color: var(--dull-text);
+}
+
+.carrot {
+  color: var(--carrot-text);
+}
+
+html {
+  background-image: url("./watercolor.png");
+}
