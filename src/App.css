@@ -25,6 +25,7 @@
 
 .nav-bar ul {
   margin-right: 10px;
+  margin-top: 12px;
 }
 
 .nav-bar {
@@ -42,6 +43,8 @@
   color: white;
   font-family: "M PLUS 1 Code", sans-serif;
   font-size: 150%;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .top-bar {
